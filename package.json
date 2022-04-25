@@ -5,7 +5,8 @@
   "main": "index.js",
   "author": "Eileen Estravo",
   "engines": {
-  "node": "16.13.1"
+    "node": "16.13.1",
+    "npm" : "8.1.2"
   },
   "scripts": {
     "dev": "nodemon server.js",
@@ -27,6 +28,7 @@
     "express-ejs-layouts": "^2.5.1",
     "express-flash": "^0.0.2",
     "express-session": "^1.17.2",
+    "heroku": "^7.60.1",
     "init": "^0.1.2",
     "laravel-mix": "^6.0.43",
     "moment": "^2.29.3",
